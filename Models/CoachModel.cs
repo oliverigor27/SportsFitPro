@@ -9,7 +9,7 @@ class CoachModel
     public string Password { get; set; } = string.Empty;
     public string IDCard { get; set; } = string.Empty;
     public DateTime Age { get; set; }
-    public List<UserModel>? StudentsList { get; set; }
+    public List<Student>? StudentsList { get; set; }
     public string specialty { get; set; } = string.Empty;
 
 }
