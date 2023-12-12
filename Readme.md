@@ -1,21 +1,23 @@
 # SportFitPro API
 
-SportFitPro is a powerful and user-friendly sports training API, crafted to empower athletes, fitness enthusiasts, and sports professionals with a comprehensive approach to training and performance optimization.
+SportFitPro is a robust and user-friendly sports training API designed to empower athletes, fitness enthusiasts, and sports professionals with a comprehensive approach to training and performance optimization.
 
 ## Technologies Used
 
-- **ASP.NET 7:** The API is built using ASP.NET 7, providing a robust and scalable foundation for developing web applications and services.
+- **ASP.NET 7:** The API is constructed using ASP.NET 7, providing a solid and scalable foundation for developing web applications and services.
 
-- **MongoDB:** SportFitPro leverages MongoDB as its database system. MongoDB's flexibility and scalability make it an ideal choice for storing and retrieving sports-related data efficiently.
+- **PostgreSQL:** SportFitPro now leverages PostgreSQL as its database system. PostgreSQL's reliability and scalability make it an ideal choice for storing and retrieving sports-related data efficiently.
 
-- **JWT (JSON Web Tokens):** The API implements JSON Web Tokens for secure authentication, ensuring that only authorized users can access and interact with the training and performance features.
+- **Identity Framework:** Identity Framework is integrated to manage user authentication, authorization, and account-related functionalities seamlessly.
+
+- **Entity Framework:** Entity Framework is used for data access, providing a convenient and object-oriented way to interact with the underlying database.
 
 ## Features
 
-SportFitPro API offers a range of features to enhance the training experience:
+SportFitPro API offers a variety of features to enhance the training experience:
 
 1. **User Authentication:**
-   - Secure user authentication using JWT for controlled access to training resources.
+   - User authentication is handled through Identity Framework for controlled access to training resources.
 
 2. **Sports Training Data:**
    - Store and manage comprehensive sports training data, including workout routines, performance metrics, and progress tracking.
@@ -30,7 +32,7 @@ SportFitPro API offers a range of features to enhance the training experience:
    - Foster a community environment by allowing athletes to connect, share achievements, and support each other's fitness journeys.
 
 6. **Scalable and Flexible Database:**
-   - Utilize MongoDB to store and retrieve data efficiently, adapting to the evolving needs of sports professionals and enthusiasts.
+   - Utilize PostgreSQL and Entity Framework to store and retrieve data efficiently, adapting to the evolving needs of sports professionals and enthusiasts.
 
 ## Getting Started
 
@@ -47,8 +49,8 @@ To get started with SportFitPro API, follow these steps:
    dotnet restore
    ```
 
-3. **Configure MongoDB Connection:**
-   - Update the MongoDB connection string in the appsettings.json file.
+3. **Configure PostgreSQL Connection:**
+   - Update the PostgreSQL connection string in the appsettings.json file.
 
 4. **Run the Application:**
    ```bash
