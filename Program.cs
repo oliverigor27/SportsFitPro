@@ -1,7 +1,4 @@
 // Global Context
-global using SportsFitPro.Models;
-using SportsFitPro.Services.StudentService;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +8,6 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IStudentService, StudentService>();
 
 var app = builder.Build();
 
