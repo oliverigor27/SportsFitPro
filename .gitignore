@@ -1,0 +1,7 @@
+# .gitignore
+
+# Ignorar diretório bin
+bin/
+
+# Ignorar diretório obj
+obj/
