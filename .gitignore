@@ -5,3 +5,6 @@ bin/
 
 # Ignorar diretório obj
 obj/
+
+# Ignorar a pasta .vs
+.vs/
