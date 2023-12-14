@@ -22,7 +22,7 @@ public class RegisterController : ControllerBase
 
         await  _registerService.CreateUser(user);
 
-        return Ok( new { Message = "User Created!", user.Id });
+        return Ok( new { Message = "User Created!", user.UserId });
     
     }
 
