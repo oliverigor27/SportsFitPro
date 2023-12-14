@@ -1,6 +1,6 @@
 using SportsFitPro.Models;
 
-namespace SportsFitPro.Services;
+namespace SportsFitPro.Services.Register;
 
 public class RegisterService : IRegisterService
 {
@@ -9,20 +9,15 @@ public class RegisterService : IRegisterService
         throw new NotImplementedException();
     }
 
-    public string ConfirmUser(string token)
+    public string ConfirmUser(Guid id)
     {
-        throw new NotImplementedException();
+        string token = "andnskf5af54g51fdb1df5hw5re@@##f5we44fdR$";
+
+        return token;
     }
 
     public async Task<UserModel> CreateUser(UserModel data)
     {
-        UserModel user = new()
-        {
-            UserName = "Lolita1233",
-            Email = "igoroliveira2798@gmail.com",
-            Password =  "dbfkjsbfjkbaj"
-        };
-
-        return user;
+        return data;
     }
 }
